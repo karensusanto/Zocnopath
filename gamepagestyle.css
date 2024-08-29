@@ -1,0 +1,101 @@
+body{
+    background-image: url("/Assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: white;
+    /* position: relative; */
+}
+
+.set-buttons{
+    position: absolute;
+    right: 10px;
+}
+.set-buttons button{
+    width: 60px;
+    border: 1px solid #ffce1f;
+    background-color: transparent;
+    border-radius: 16px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.home img{
+    width: 20px;
+    color: white;
+    filter: invert(100%);
+}
+
+.char-profile{
+    margin-top: 20px;
+    position: absolute;
+    left: 35%;
+}
+.char-profile img{
+    width: 75px;
+}
+
+.health-bars{
+    position: absolute;
+    top:10%;
+    right: 10px;
+}
+
+span{
+    font-size: 20px;
+    color: white;
+}
+.player-health{
+    font-size: 13px;
+    color: white;
+    padding-left: 20px;
+    width: 200px;
+    height: 16px;
+    background-color: green;
+}
+.enemy{
+    margin: 50px 0 0 50px;
+}
+.enemy-health{
+    font-size: 13px;
+    color: white;
+    padding-left: 20px;
+    width: 200px;
+    height: 16px;
+    background-color: red;
+}
+.exp{
+    height: 8px;
+    width: 150px;
+    font-size: 8px;
+    color: white;
+    padding-left: 20px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.help-scroll{
+    display: none;
+}
+.help-scroll img{
+    position: relative;
+    width: 700px;
+    height: 80vh;
+    left: 330px;
+}
+
+.help-content{
+    position: absolute;
+    width: 400px;
+    top: 30vh;
+    left: 500px;
+}
+
+.help-content ul li{   
+    color: black;
+    font-size: 10px;
+}
+
+.help-content span{
+    color: black;
+    font-size: 10px;
+}

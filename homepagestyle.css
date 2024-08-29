@@ -1,0 +1,98 @@
+video::-webkit-media-controls {
+    display: none;
+    
+}
+video{
+    width: 100vw;
+}
+
+
+.title{
+    font-size:15vw;
+    color: black;
+    z-index: 1;
+    top: 60%;
+    left: 3vw;
+    position:absolute;
+    text-shadow: -1px -1px 0 #ffce1f, 1px -1px 0 #ffce1f, -1px 1px 0 #ffce1f, 1px 1px 0 #ffce1f;
+}
+
+.story-box, .story-box-no-img{
+    background-color: transparent;
+    padding: 0 15px 0 15px;
+    height: fit-content;
+}
+.story-box .content{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    padding: 80px 80px 80px 80px;
+    position: relative;
+}
+.story-box .content .story{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+
+.story-box .content img{
+    width: 100%;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+.story-box .content .img-frame img:hover{
+    transform: scale(1.2);
+}
+.story-box .content .img-frame-2 img:hover{
+    transform: scale(1.2);
+}
+.story-box .content .img-frame{
+    display: flex;
+    width: 200vw;
+    overflow:hidden;
+}
+.story-box .content .img-frame-2{
+    display: flex;
+    width: 200vw;
+    overflow:hidden;
+}
+.story-box .content .text-part{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content:center;
+    margin-right: 20px;
+}
+.story-box .content .text-part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: justify;
+    margin-left: 20px;
+}
+.story-box .content .text-part .subtitle{
+    font-weight: bold;
+}
+
+.story-box .content button{
+    max-width: fit-content;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid;
+    padding: 10px 39px 10px 39px;
+}
+
+
+.story-box .content .text-part-2 .subtitle{
+    font-weight: bold;
+    text-align: right;
+}

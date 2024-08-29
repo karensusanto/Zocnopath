@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="gamepagestyle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>ZocNopath</title>
+</head>
+<body>
+    <audio src="/Assets/relax-in-the-forest-background-music-for-video-9145.mp3" autoplay></audio>
+    
+    <div class="enemy">
+        <span>enemy</span>
+        <div class="enemy-health" id="e1">200/200</div>
+    </div>
+    
+    
+    <div class="set-buttons">
+        <button class="ff 1">></button>
+        <button class="help">?</button>
+        <a href="./HomePage.html"><button class="home"><img src="/Assets/home.png"></button></a>
+    </div>
+
+    <div class="char-profile">
+        <img src="/Assets/turn_noelle.png">
+        <img src="/Assets/turn_alfyn.png">
+        <img src="/Assets/turn_cyrus.png">
+        <img src="/Assets/turn_primrose.png">
+        <img src="/Assets/turn_ophilia.png"> 
+    </div>
+
+    <div class="health-bars">
+        <!-- <div class="health-player"> -->
+            <span>level </span><span id="name1">name1</span>
+            <div class="player-health" id="p1">20/20</div>
+            <div class="exp" id="pe1">0/50</div>
+        <!-- </div> -->
+        <!-- <div class="health-player"> -->
+            <span>level </span><span id="name2">name2</span>
+            <div class="player-health" id="p1">25/25</div>
+            <div class="exp" id="pe1">0/50</div>
+        <!-- </div> -->
+        <!-- <div class="health-player"> -->
+            <span>level </span><span id="name3">name3</span>
+            <div class="player-health" id="p1">15/15</div>
+            <div class="exp" id="pe1">0/50</div>
+        <!-- </div> -->
+        <!-- <div class="health-player"> -->
+            <span>level </span><span id="name4">name4</span>
+            <div class="player-health" id="p1">30/30</div>
+            <div class="exp" id="pe1">0/50</div>
+        <!-- </div> -->
+    </div>
+
+    <div class="help-scroll">
+
+        <img src="/Assets/scroll.png">
+        <div class="help-content">
+            <span id="name1">name1</span>
+            <ul>
+                <li>Base Health Point : 20</li>
+                <li>Base Attack Point : 40</li>
+                <li>Buff Your Self : Buff his self with additional 15% damage dealt</li>
+            </ul>
+            <span id="name2">name2</span>
+            <ul>
+                <li>Base Health Point : 25</li>
+                <li>Base Attack Point : 35</li>
+                <li>Shield : Make one of your teammates can’t receive damage for the next enemy attack
+                    werrwe</li>
+            </ul>
+            <span id="name3">name3</span>
+            <ul>
+                <li>Base Health Point : 15</li>
+                <li>Base Attack Point : 40</li>
+                <li>Buff Teammate Speed : Make one of your teammates move forward 2 turns.</li>
+            </ul>
+            <span id="name4">name4</span>
+            <ul>
+                <li>Base Health Point : 30</li>
+                <li>Base Attack Point : 25</li>
+                <li>Heal : Heals one of your teammates based on 50% of her max health point</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="choose-char">
+        <p class="name1"></p>
+        <p class="name1"></p>
+        <p class="name1"></p>
+        <p class="name1"></p>
+    </div>
+    
+    <script src="jquery.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>

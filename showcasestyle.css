@@ -1,0 +1,126 @@
+body{
+    background-image: url("/Assets/galaxy.c4f78857.jpg");
+}
+.body{
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.body::-webkit-scrollbar{
+    display: none;
+}
+.title-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.carousel{
+    height: 664px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel .carousel-section{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 1400px;
+}
+.carousel .carousel-section a{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.carousel .carousel-section a .frame{
+    position: relative;
+    width: 427px;
+    height: 409px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+#section1, #section2, #section3, #section4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.carousel .carousel-section a .map-picture{
+    width: 330px;
+    height: 342.5px;
+    position: absolute;
+    top: 33px;
+    left: 50px;
+}
+
+.next, .prev{
+    padding: 10px 70px 10px 70px;
+    background-color: rgba(82, 27, 27,0.7);
+    border-radius: 8px;
+    margin: 0 10px 0 10px;
+}
+
+.map-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-desc .content{
+    height: 567px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding:20px ;
+    width: 70%;
+    justify-content: center;
+    text-align: justify;
+}
+
+.map-desc .content img{
+    width: 448px;
+    height: 448px;
+    display: flex;
+    border: 1px solid #ffce1f;
+}
+.map-desc .content .text-section{
+    text-align: justify;
+    width: 890px;
+    margin: 0 0 0 20px;
+}
+.map-desc .content .text-section p{
+    width: 870px;
+    font-size: 21px;
+}
+.map-desc .content .title-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.map-desc .content .title-section img{
+    width: 129px;
+    height: 18px;
+    border: none;
+}
+.img2{
+    transform: scaleX(-1);
+}
+.title-section p{
+    margin: 0 10px 0 10px;
+    width: fit-content;
+}
+
+footer{
+    background-color: rgb(82, 27, 27);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
